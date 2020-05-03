@@ -12,15 +12,7 @@
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
   <url>https://maven.apache.org</url>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-   <repositories>
+     <repositories>
         <repository>
           <id>central</id>
           <url>https://repo1.maven.org/maven2</url>
@@ -29,6 +21,15 @@
           </releases>
         </repository>
       </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
   <build>
     <finalName>CloudenabledWebApp</finalName>
   </build>
